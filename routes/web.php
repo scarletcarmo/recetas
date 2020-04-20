@@ -16,7 +16,6 @@ $router->get('/', function () use ($router) {
 });
 
 //Recetas
-
 $router->get('recetas', 'RecetaController@index');
 $router->get('recetas/{id}', 'RecetaController@getById');
 $router->post('recetas', 'RecetaController@store');
